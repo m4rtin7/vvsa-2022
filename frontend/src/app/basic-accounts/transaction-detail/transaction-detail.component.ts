@@ -1,5 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { TransactionsService } from 'src/app/_services/transactions.service';
+
+interface Transaction{
+  transactionId: number,
+  fullName: string,
+  transactionType: number,
+  accountNumber: string,
+  bankCode: string,
+  issueDate: string,
+  amount: number
+}
 
 @Component({
   selector: 'app-transaction-detail',
@@ -7,14 +18,20 @@ import { ActivatedRoute } from '@angular/router';
   styleUrls: ['./transaction-detail.component.css']
 })
 export class TransactionDetailComponent implements OnInit {
-  id: string | null;
+  public transaction: Transaction | null = null
+  constructor(private route: ActivatedRoute, private transactionService: TransactionsService) {}
 
-  constructor(private route: ActivatedRoute) { 
-    this.id = this.route.snapshot.paramMap.get('id');
-  }
 
-  ngOnInit(): void {
+
+  ngOnInit() {
+    let id = this.route.snapshot.params['id']
+    this.transactionService.getTransaction(id)
+    .subscribe(      
+      ({data}:{data: Transaction}) => this.transaction = data
+      )
+      
+    console.log(id)
+    console.log(this.transaction)
   
   }
-
 }
