@@ -1,16 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { TransactionsService } from 'src/app/_services/transactions.service';
-
-interface Transaction{
-  transactionId: number,
-  fullName: string,
-  transactionType: number,
-  accountNumber: string,
-  bankCode: string,
-  issueDate: string,
-  amount: number
-}
+import { Transaction } from 'src/app/_types/Transaction';
 
 @Component({
   selector: 'app-transaction-detail',

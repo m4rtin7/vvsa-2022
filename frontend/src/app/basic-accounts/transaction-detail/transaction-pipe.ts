@@ -1,14 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-
-interface Transaction{
-    transactionId: number,
-    fullName: string,
-    transactionType: number,
-    accountNumber: string,
-    bankCode: string,
-    issueDate: string,
-    amount: number
-  }
+import { Transaction } from 'src/app/_types/Transaction';
 
 @Pipe({
   name: 'transactionPipe'

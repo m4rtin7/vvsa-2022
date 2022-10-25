@@ -1,15 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { TransactionsService } from 'src/app/_services/transactions.service';
+import { Transaction } from 'src/app/_types/Transaction';
 
-interface Transaction{
-  transactionId: number,
-  fullName: string,
-  transactionType: number,
-  accountNumber: string,
-  bankCode: string,
-  issueDate: string,
-  amount: number
-}
 @Component({
   selector: 'app-transaction-list',
   templateUrl: './transaction-list.component.html',

@@ -1,15 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-
-interface Transaction{
-  transactionId: number,
-  fullName: string,
-  transactionType: number,
-  accountNumber: string,
-  bankCode: string,
-  issueDate: string,
-  amount: number
-}
+import { Transaction } from '../_types/Transaction';
 
 @Injectable({
   providedIn: 'root'
