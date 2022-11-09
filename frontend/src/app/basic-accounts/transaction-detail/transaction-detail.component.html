@@ -1,1 +1,17 @@
-<p>{{transaction | transactionPipe | json}}</p>
+<form [formGroup]="transactionForm">
+    <mat-form-field appearance="fill">
+        <mat-label>Account number</mat-label>
+        <input formControlName="accountNumber" matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill">
+        <mat-label>Amount</mat-label>
+        <input formControlName="amount" matInput>
+    </mat-form-field>
+    <br>
+    <mat-form-field appearance="fill">
+        <mat-label>Issue date</mat-label>
+        <input formControlName="issueDate" matInput>
+    </mat-form-field>
+</form>
+{{transactionForm.value | json}}
