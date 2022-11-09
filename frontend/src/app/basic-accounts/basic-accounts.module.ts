@@ -6,7 +6,7 @@ import { TransactionListComponent } from './transaction-list/transaction-list.co
 import { TransactionDetailComponent } from './transaction-detail/transaction-detail.component';
 import { TransactionPipe } from './transaction-detail/transaction-pipe';
 import { TransactionsPipe } from './transaction-list/transactions-pipe';
-
+import { MaterialModules } from 'src/material.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +17,8 @@ import { TransactionsPipe } from './transaction-list/transactions-pipe';
   ],
   imports: [
     CommonModule,
-    BasicAccountsRoutingModule
+    BasicAccountsRoutingModule,
+    MaterialModules
   ]
 })
 export class BasicAccountsModule { }

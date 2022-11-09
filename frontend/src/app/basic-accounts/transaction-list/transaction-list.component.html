@@ -1,1 +1,42 @@
-<p>{{transactions | transactionsPipe | json}}</p>
+<table mat-table [dataSource]="transactions | transactionsPipe" class="mat-elevation-z8">
+
+    <!--- Note that these columns can be defined in any order.
+          The actual rendered columns are set as a property on the row definition" -->
+  
+    <!-- Position Column -->
+    <ng-container matColumnDef="Meno">
+      <th mat-header-cell *matHeaderCellDef> Meno a Priezvisko </th>
+      <td mat-cell *matCellDef="let element"> {{element.fullName}} </td>
+    </ng-container>
+  
+    <!-- Name Column -->
+    <ng-container matColumnDef="Typ">
+      <th mat-header-cell *matHeaderCellDef> Typ transakcie </th>
+      <td mat-cell *matCellDef="let element"> {{element.transactionType}} </td>
+    </ng-container>
+  
+    <!-- Weight Column -->
+    <ng-container matColumnDef="Ucet">
+      <th mat-header-cell *matHeaderCellDef> Ucet </th>
+      <td mat-cell *matCellDef="let element"> {{element.accountNumber}} </td>
+    </ng-container>
+  
+    <!-- Symbol Column -->
+    <ng-container matColumnDef="Hodnota">
+      <th mat-header-cell *matHeaderCellDef> Hodnota </th>
+      <td mat-cell *matCellDef="let element"> {{element.amount}} </td>
+    </ng-container>
+    
+    <ng-container matColumnDef="Akcia">
+        <th mat-header-cell *matHeaderCellDef> Akcia </th>
+        <td mat-cell *matCellDef="let element">    
+            <mat-icon [routerLink]="['/basic-accounts/'+element.transactionId]" aria-hidden="false" aria-label="search icon" fontIcon="search"></mat-icon>
+        </td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row (dblclick)="onClick(row.transactionId)" *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+  
+
+<!-- <p>{{transactions | transactionsPipe | json}}</p> -->

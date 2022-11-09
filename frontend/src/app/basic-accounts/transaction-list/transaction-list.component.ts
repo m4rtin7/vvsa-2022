@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Route, Router } from '@angular/router';
 import { TransactionsService } from 'src/app/_services/transactions.service';
 import { Transaction } from 'src/app/_types/Transaction';
 
@@ -8,8 +9,9 @@ import { Transaction } from 'src/app/_types/Transaction';
   styleUrls: ['./transaction-list.component.css']
 })
 export class TransactionListComponent implements OnInit {
-  public transactions: Transaction[] | null = null
-  constructor(private transactionService: TransactionsService) { }
+  transactions: Transaction[] = []
+  displayedColumns: string[] = ['Meno', 'Typ', 'Ucet', 'Hodnota', 'Akcia'];
+  constructor(private transactionService: TransactionsService, private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {
     this.transactionService.getTransactions()
@@ -21,4 +23,7 @@ export class TransactionListComponent implements OnInit {
   
   }
 
+  onClick(id:number) {
+    this.router.navigate([`./${id}`], {relativeTo: this.route});
+  }
 }
