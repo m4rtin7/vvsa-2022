@@ -16,11 +16,11 @@ export class TransactionListComponent implements OnInit {
   ngOnInit() {
     this.transactionService.getTransactions()
     .subscribe(      
-      ({data}:{data: Transaction[]}) => this.transactions = data
+      (data: Transaction[]) => {
+        console.log(data)
+        this.transactions = data
+      }
       )
-      
-    console.log(this.transactions)
-  
   }
 
   onClick(id:number) {

@@ -11,10 +11,10 @@ export class TransactionsService {
 
   private URL = "/api/transactions"
 
-  getTransactions(){
-    return this.httpClient.get<{data: Transaction[]}>(this.URL)
+   getTransactions(){
+    return this.httpClient.get<Transaction[]>(this.URL)
   }
   getTransaction(id: number){
-    return this.httpClient.get<{data: Transaction}>(`${this.URL}/${id}`)
+    return this.httpClient.get<Transaction>(`${this.URL}/${id}`)
   }
 }

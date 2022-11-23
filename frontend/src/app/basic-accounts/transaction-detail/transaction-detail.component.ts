@@ -24,8 +24,10 @@ export class TransactionDetailComponent implements OnInit {
     let id = this.route.snapshot.params['id']
     this.transactionService.getTransaction(id)
     .subscribe(      
-      ({data}:{data: Transaction}) => {
+      (data: Transaction) => {
         this.transaction = data
+        console.log(data);
+        
         this.transactionForm.setValue({accountNumber: this.transaction?.accountNumber, amount: this.transaction?.amount, issueDate: this.transaction?.issueDate})
       }
       )
