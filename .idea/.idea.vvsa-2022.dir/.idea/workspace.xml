@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="452812f5-dfb3-4591-990b-ead0424e0e79" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Controllers/TransactionController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Controllers/WeatherForecastController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseModel/Transaction.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseModel/TransactionType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseModel/User.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DatabaseModel/whiyes5oContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Properties/launchSettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/ITransactionRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Repository/TransactionRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/ITransactionService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Service/TransactionService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ViewModel/TransactionViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WeatherForecast.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebApplication1.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Microsoft.OpenApi.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/MySqlConnector.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/WebApplication1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/WebApplication1.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/WebApplication1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/WebApplication1.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/WebApplication1.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/appsettings.Development.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/appsettings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/Debug/net6.0/ref/WebApplication1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.csproj.CopyComplete" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/WebApplication1.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/apphost" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/ref/WebApplication1.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net6.0/staticwebassets.build.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/WebApplication1.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/WebApplication1.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/WebApplication1.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/WebApplication1.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/staticwebassets.pack.sentinel" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/.idea/.idea.WebApplication1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/.idea/.idea.WebApplication1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/.idea/.idea.WebApplication1/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/.idea/.idea.WebApplication1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/Controllers/TransactionController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/Controllers/WeatherForecastController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/DatabaseModel/Transaction.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/DatabaseModel/TransactionType.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/DatabaseModel/User.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/DatabaseModel/whiyes5oContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/Repository/ITransactionRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/Repository/TransactionRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/Service/ITransactionService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/Service/TransactionService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/ViewModel/TransactionViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/WebApplication1.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/Humanizer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/Microsoft.OpenApi.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/MySqlConnector.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/Pomelo.EntityFrameworkCore.MySql.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/WebApplication1.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/bin/Debug/net6.0/ref/WebApplication1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.MvcApplicationPartsAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.AssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/WebApplication1.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/apphost" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/ref/WebApplication1.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/Debug/net6.0/staticwebassets.build.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/WebApplication1.csproj.EntityFrameworkCore.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/WebApplication1.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/WebApplication1.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/WebApplication1.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/rider.project.restore.info" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication1/WebApplication1/obj/staticwebassets.pack.sentinel" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WeatherForecast.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2IamMJjWzAMKbnvOiuOLubuL7vx" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/m4rtin7/Desktop/vvsa-2022&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.WebApplication1">
+    <configuration name="WebApplication1" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApplication1.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="WebApplication1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication1: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApplication1.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value="net6.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="452812f5-dfb3-4591-990b-ead0424e0e79" name="Changes" comment="" />
+      <created>1670428019051</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670428019051</updated>
+      <workItem from="1670428021748" duration="3042000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>
